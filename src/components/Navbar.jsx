@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { AiOutlineClose } from "react-icons/ai";
 import { HiOutlineMenuAlt1 } from "react-icons/hi";
 import { Link } from "react-scroll";
-import img from "../assets/img/logo.png";
+import img from "../assets/img/react.svg";
 
 const Navbar = () => {
   const [menu, setMenu] = useState(false);
@@ -20,7 +20,7 @@ const Navbar = () => {
         <div className="flex flex-row justify-between p-5 md:px-32 px-5 bg-white shadow-[0_3px_10px_rgb(0,0,0,0.2)]">
           <div className="flex flex-row items-center cursor-pointer">
             <img width={30} src={img} alt="img" className=" mr-1" />
-            <h1 className="text-3xl font-semibold text-brightColor ">
+            <h1 className="text-3xl font-semibold text-brightColor">
               DevHorizon
             </h1>
           </div>
