@@ -1,0 +1,9 @@
+﻿{
+  "agentId": 2,
+  "agentName": "Macs-MacBook-Pro",
+  "poolId": 1,
+  "poolName": "Default",
+  "serverUrl": "https://pipelinesghubeus12.actions.githubusercontent.com/N7mJP8UAwr0vsZ8Bh5YtB3u81O7P1jyBPasB9cikK0DgTk0wjy/",
+  "gitHubUrl": "https://github.com/ReaksmeyThan/portfolio-web",
+  "workFolder": "porfolio-web"
+}

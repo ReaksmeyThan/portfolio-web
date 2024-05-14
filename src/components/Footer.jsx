@@ -7,6 +7,8 @@ const Footer = () => {
   return (
     <div className=" flex flex-col lg:flex-row justify-between lg:px-32 px-5 bg-white p-5 flex-auto">
       <div className="flex gap-10">
+        
+        {/* Youtube */}
         <a
           href="https://www.youtube.com/channel/UCbsmtBpfwsoO4sCi19wIDYA"
           target="_blank"
@@ -17,6 +19,8 @@ const Footer = () => {
             className="hover:text-brightColor transition-all cursor-pointer"
           />
         </a>
+
+        {/* Tik Tok */}
         <a
           href="https://www.tiktok.com/@reaksmeyrt"
           target="_blank"
@@ -27,6 +31,8 @@ const Footer = () => {
             className="hover:text-brightColor transition-all cursor-pointer"
           />
         </a>
+
+        {/* Instagram */}
         <a
           href="https://www.instagram.com/reaksmey58/"
           target="_blank"
@@ -38,6 +44,7 @@ const Footer = () => {
           />
         </a>
 
+        {/* FaceBook */}
         <a
           href="https://www.facebook.com/reaksmey.rt"
           target="_blank"
@@ -49,6 +56,7 @@ const Footer = () => {
           />
         </a>
 
+        {/* LinkedIn */}
         <a
           href="https://www.linkedin.com/in/reakmsey-than-499b27ba/"
           target="_blank"
@@ -60,6 +68,7 @@ const Footer = () => {
           />
         </a>
 
+        {/* Discord */}
         <a
           href="https://www.discord.com/your-discord-profile"
           target="_blank"
@@ -70,6 +79,8 @@ const Footer = () => {
             className="hover:text-brightColor transition-all cursor-pointer"
           />
         </a>
+
+        
       </div>
       <div className="flex flex-row items-center cursor-pointer mt-5 lg:mt-0">
         <Link
