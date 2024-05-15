@@ -32,7 +32,7 @@ const Footer = () => {
           />
         </a>
 
-        {/* Instagram */}
+        {/* Instagram 
         <a
           href="https://www.instagram.com/reaksmey58/"
           target="_blank"
@@ -43,7 +43,7 @@ const Footer = () => {
             className="hover:text-brightColor transition-all cursor-pointer"
           />
         </a>
-
+*/}
         {/* FaceBook */}
         <a
           href="https://www.facebook.com/reaksmey.rt"
@@ -69,7 +69,7 @@ const Footer = () => {
         </a>
 
       </div>
-      
+
       <div className="flex flex-row items-center cursor-pointer mt-5 lg:mt-0">
         <Link
           to="home"
