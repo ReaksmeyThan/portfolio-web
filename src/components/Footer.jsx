@@ -68,20 +68,8 @@ const Footer = () => {
           />
         </a>
 
-        {/* Discord */}
-        <a
-          href="https://www.discord.com/your-discord-profile"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <FaDiscord
-            size={32}
-            className="hover:text-brightColor transition-all cursor-pointer"
-          />
-        </a>
-
-        
       </div>
+      
       <div className="flex flex-row items-center cursor-pointer mt-5 lg:mt-0">
         <Link
           to="home"
