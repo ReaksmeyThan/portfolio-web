@@ -5,16 +5,16 @@ import Button from "../layouts/Button";
 const Home = () => {
 
   const downloadPDF = () => {
-    const pdfUrl = process.env.PUBLIC_URL + '/pdfs/Reaksmey_CV.pdf';
+    const pdfUrl = '/pdfs/Reaksmey_CV.pdf'; // Relative path to the PDF file
   
-
     const link = document.createElement('a');
     link.href = pdfUrl;
-    link.download = 'Reaksmey_CV.pdf'; // Set the file name for download
+    link.download = 'Reaksmey_CV.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
   };
+  
   
   return (
     <div className=" min-h-screen flex flex-col justify-center lg:flex-row items-center lg:px-32 px-5 bg-backgroundColor">
