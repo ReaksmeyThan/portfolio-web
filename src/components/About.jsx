@@ -9,7 +9,7 @@ const About = () => {
 
   return (
     <div className=" min-h-screen flex flex-col justify-around lg:gap-8 lg:px-32 px-5 bg-slate-100">
-      <div className=" mt-16 ">
+      <div className=" mt-16 mb-16">
         <h1 className=" text-4xl font-semibold text-center lg:mt-2">About Me</h1>
       </div>
 

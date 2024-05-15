@@ -6,7 +6,7 @@ import { Link } from "react-scroll";
 const Footer = () => {
   return (
     <div className=" flex flex-col lg:flex-row justify-between lg:px-32 px-5 bg-white p-5 flex-auto">
-      <div className="flex gap-10">
+      <div className="flex gap-10 flex-wrap">
         
         {/* Youtube */}
         <a
